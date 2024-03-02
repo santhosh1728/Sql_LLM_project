@@ -10,6 +10,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+google_api_key:  https://aistudio.google.com/app/apikey
 
 
 Local server to browse : http://localhost:8501
