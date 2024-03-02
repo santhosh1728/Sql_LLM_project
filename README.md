@@ -15,6 +15,7 @@ Local server to browse : http://localhost:8501
 promt -> LLM --> Gemini Pro -> Query --> SQL Database --> Response
 
 1. SQLLITE -> Insert some records --python Programming
+
 2.LLM Application --> Gemini Pro --> SQL Database
 
 
