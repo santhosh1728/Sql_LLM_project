@@ -1,0 +1,13 @@
+prefix=C:/Users/jjate/OneDrive/Desktop/dbms_cap/Sql_LLM_project/venv/Library
+exec_prefix=C:/Users/jjate/OneDrive/Desktop/dbms_cap/Sql_LLM_project/venv/Library
+libdir=C:/Users/jjate/OneDrive/Desktop/dbms_cap/Sql_LLM_project/venv/Library/lib
+sharedlibdir=C:/Users/jjate/OneDrive/Desktop/dbms_cap/Sql_LLM_project/venv/Library/lib
+includedir=C:/Users/jjate/OneDrive/Desktop/dbms_cap/Sql_LLM_project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
