@@ -50,7 +50,7 @@ if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
     elif uploaded_file.name.endswith(('.xls', '.xlsx')):
         df = pd.read_excel(uploaded_file, engine='openpyxl')
-    
+    file = uploaded_file.name.split('.')[0].upper()
     ## Define Your Prompt
     prompt = [f"""
     You are an expert in converting English questions to SQL queries!
