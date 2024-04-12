@@ -43,7 +43,6 @@ st.title('Interactive Data Analysis App')
 
 # File upload component
 uploaded_file = st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
-file = uploaded_file.name.split('.')[0].upper()
 if uploaded_file is not None:
     # Read data from uploaded file
     if uploaded_file.name.endswith('.csv'):
