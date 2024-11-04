@@ -1,7 +1,3 @@
-Here's a more detailed version of your README with the mention of `app2.py` for interactive plots:
-
----
-
 # SQL_LLM_Project
 
 This repository contains a project that integrates a Local Language Model (LLM) application with a SQL database, enabling users to query and interact with the database using natural language. The project utilizes **Streamlit** for the web interface and **Gemini Pro** for LLM capabilities, providing a user-friendly environment for seamless database interaction.
@@ -99,5 +95,3 @@ Some advanced features might require a Google API key. You can obtain it by visi
 ---
 
 By following these steps, you should be able to set up and run the SQL_LLM_Project with ease. The README outlines the project components and provides guidance to ensure a smooth experience with both basic queries and advanced interactive visualizations.
-
----
